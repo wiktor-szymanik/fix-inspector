@@ -1,0 +1,13 @@
+{
+  "messages": {
+    "D": {
+      "hint": "Optional documentation-derived business guidance for this message type.",
+      "fields": {
+        "54": {
+          "hint": "Optional business meaning or venue constraint.",
+          "security": "Optional authorized-testing hint; dictionary validation is unchanged."
+        }
+      }
+    }
+  }
+}

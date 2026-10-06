@@ -1,0 +1,28 @@
+<fix>
+  <fields>
+    <field number="11" name="ClOrdID" type="STRING" />
+    <field number="55" name="Symbol" type="STRING" />
+    <field number="54" name="Side" type="CHAR">
+      <value enum="1" description="BUY" />
+      <value enum="2" description="SELL" />
+    </field>
+    <field number="38" name="OrderQty" type="QTY" />
+    <field number="453" name="NoPartyIDs" type="NUMINGROUP" />
+    <field number="448" name="PartyID" type="STRING" />
+    <field number="447" name="PartyIDSource" type="CHAR">
+      <value enum="D" description="PROPRIETARY_CUSTOM_CODE" />
+    </field>
+  </fields>
+  <messages>
+    <message name="NewOrderSingle" msgtype="D" msgcat="app">
+      <field name="ClOrdID" required="Y" />
+      <field name="Symbol" required="Y" />
+      <field name="Side" required="N" />
+      <field name="OrderQty" required="N" />
+      <group name="NoPartyIDs" required="N">
+        <field name="PartyID" required="Y" />
+        <field name="PartyIDSource" required="N" />
+      </group>
+    </message>
+  </messages>
+</fix>

@@ -1,0 +1,13 @@
+{
+  "messages": {
+    "D": {
+      "hint": "Venue-specific order guidance",
+      "fields": {
+        "54": {
+          "hint": "Business side",
+          "security": "Try invalid values only in an authorized test"
+        }
+      }
+    }
+  }
+}

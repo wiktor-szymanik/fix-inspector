@@ -1,0 +1,2 @@
+"""Application settings UI boundary."""
+

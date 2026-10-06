@@ -1,0 +1,25 @@
+<fix>
+  <components>
+    <component name="Entries">
+      <group name="NoEntries" required="N">
+        <field name="EntryID" required="Y" />
+        <group name="NoSubEntries" required="N">
+          <field name="SubID" required="Y" />
+        </group>
+        <field name="EntryText" required="N" />
+      </group>
+    </component>
+  </components>
+  <fields>
+    <field number="1000" name="NoEntries" type="NUMINGROUP" />
+    <field number="1001" name="EntryID" type="STRING" />
+    <field number="1002" name="NoSubEntries" type="NUMINGROUP" />
+    <field number="1003" name="SubID" type="STRING" />
+    <field number="1004" name="EntryText" type="STRING" />
+  </fields>
+  <messages>
+    <message name="NestedGroupTest" msgtype="Z" msgcat="app">
+      <component name="Entries" required="N" />
+    </message>
+  </messages>
+</fix>

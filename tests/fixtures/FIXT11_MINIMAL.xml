@@ -1,0 +1,22 @@
+<fix>
+  <components>
+    <component name="Instrument">
+      <field name="Symbol" required="Y" />
+      <group name="NoPartyIDs" required="N">
+        <field name="PartyID" required="Y" />
+      </group>
+    </component>
+    <component name="CycleA"><component name="CycleB" required="N" /></component>
+    <component name="CycleB"><component name="CycleA" required="N" /></component>
+  </components>
+  <fields>
+    <field number="11" name="ClOrdID" type="STRING" />
+    <field number="35" name="MsgType" type="STRING">
+      <value enum="D" description="NEW_ORDER_SINGLE" />
+    </field>
+    <field number="55" name="Symbol" type="STRING" />
+    <field number="453" name="NoPartyIDs" type="NUMINGROUP" />
+    <field number="448" name="PartyID" type="STRING" />
+  </fields>
+</fix>
+

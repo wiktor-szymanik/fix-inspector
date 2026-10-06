@@ -1,0 +1,10 @@
+<fix>
+  <messages>
+    <message name="NewOrderSingle" msgtype="D" msgcat="app">
+      <field name="ClOrdID" required="Y" />
+      <component name="Instrument" required="Y" />
+      <component name="CycleA" required="N" />
+    </message>
+  </messages>
+</fix>
+
