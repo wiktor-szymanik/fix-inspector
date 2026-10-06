@@ -190,6 +190,8 @@ private infrastructure addresses, and previous release archives.
 - [Display and presentation](docs/DISPLAY_PRESENTATION.md)
 - [Contributing](CONTRIBUTING.md)
 
+
+
 ## Security
 
 FIX Inspector is intended for authorized security testing, research, and development.
@@ -209,3 +211,24 @@ The Apache License does not grant permission to use the FIX Inspector name or lo
 branding for derivative products except as required for reasonable attribution.
 
 Third-party dependencies remain subject to their respective licenses.
+
+
+## Roadmap
+
+FIX Inspector is under active development. The current release focuses on a stable core workflow for intercepting, inspecting, modifying and testing FIX traffic.
+
+Future development may include:
+
+- further UI/UX improvements and workflow refinements
+- a plugin / extension system for custom analysis and testing capabilities
+- improved Linux and macOS support, including native packaging
+- additional FIX session analysis and visualization features
+- richer dictionary management and support for custom FIX definitions
+- more flexible proxy rules and message transformation capabilities
+- scripting / automation support for repeatable testing workflows
+- additional fuzzing strategies and protocol-aware mutation cases
+- improved project, export and reporting workflows
+- continued performance, stability and usability improvements
+
+This roadmap is directional rather than a commitment to specific release dates.
+Suggestions and contributions are welcome :).
