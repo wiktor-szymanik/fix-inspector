@@ -31,6 +31,6 @@ Thumbs.db
 *.tar.gz
 htmlcov/
 coverage.xml
-diagnostics/
-exports/
-captures/
+/diagnostics/
+/exports/
+/captures/
